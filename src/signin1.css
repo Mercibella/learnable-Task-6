@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.header{
+    width: 100%;
+   padding: 30px;
+}
+
+.header img{
+    width: 100px;
+}
+
+
+body{
+    background-image: url(./img/BG.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: rgb(12, 10, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: left;
+}
+
+.input-box{
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+
+
+
+.input-box input{
+    width: 100%;
+    height: 40px;
+    background: #242323;
+    color: rgba(140, 140, 140,);
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.remember-me{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: rgba(140, 140, 140);
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-me label input{
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.remember-me a{
+    color: rgba(140, 140, 140);
+    text-decoration: none;
+}
+
+.remember-me a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    background: #e50915;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #c4020c;
+}
+
+img{
+    width: 18px;
+    margin: 5px;
+}
+
+.register-link{
+    font-size: .9em;
+    text-align: left;
+    margin: 25px 10px;
+    color: rgba(140, 140, 140);
+}
+
+.register-link a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+}
+
+span{
+    color: #fff;
+}
+
+.register-link p{
+    line-height: 40px;
+}
+
+.register-link h3{
+    font-size: 1em;
+    line-height: 30px;
+}
+
+.register-link small{
+    font-size: .8em;
+}
