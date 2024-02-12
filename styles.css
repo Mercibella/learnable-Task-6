@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    color: #fff;
+    background: #000;
+}
+
+.header{
+    background-image: url(./img/BG.png);
+    width: 1920x;
+    height: 747px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+.logo{
+    width: 130px;
+    cursor: none;
+    margin: 20px;
+}
+
+  .button,  button{ 
+    padding: 7px 20px;
+    margin-left: 15px;
+    color: #fff;
+    text-transform: capitalize;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14;
+    margin: 5px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    display: inline;
+    margin-left: 5px 40px;
+    cursor: pointer;
+}
+
+.lang-btn {
+    background: rgb(80, 78, 78);
+    border: solid 1px #fff;
+}
+
+.Signin-btn:hover{
+    transform: scale(1);
+}
+
+.lang-btn ion-icon{
+    width: 15px;  
+}
+
+.Signin-btn{
+    background: rgb(236, 4, 4);
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+
+.main-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 600px;
+    margin-top: px;
+
+}
+
+.main-content h1{
+   font-size: 58px;
+   font-weight: 700px;
+   line-height: 50px;
+   max-width: 650px;
+}
+
+.main-content h3{
+    font-size: 27px;
+    font-weight: 400px;
+    margin: 20px;
+}
+
+p{
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.form{
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form input{
+    flex: 1;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.form button{
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    background: rgb(236, 4, 4);
+    color: #fff;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background: rgb(247, 12, 12);
+}
+
+.sub-content{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+hr{
+    padding: 3px;
+    background: rgb(27, 27, 27);
+    border: none;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:  50px 0;
+    margin: auto;
+}
+
+.floating-item{
+    margin-top: 40px;
+    float: left;
+    text-align: left;
+}
+
+.floating-item h2{
+    font-size: 1.5em;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+
+.floating-item p{
+    font-size: 0.8em;
+}
+
+.gif{
+    display: flex;
+    float: right;
+    width: 500px;
+    margin: 50px 70px;
+}
+
+.questions{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.questions h2{
+    font-size: 400;
+    font-weight: 500;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(41, 41, 41);
+    margin-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion  .hidden{
+    background: #000;
+    text-align: left;
+    padding: 0 20px;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.accordion input[type=radio]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type=radio]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+footer{
+    padding-top: 50px;
+}
+
+.footer-container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 33.3%;
+    color: rgb(121, 119, 119);
+    font-size: .7em;
+    line-height: 25px;
+}
+
+.footer-content img{
+    width: 14px;
+    margin-right: 5px;
+}
+
+button{
+    text-align: center;
+    padding: 5px;
+    background: #000;
+    color: rgb(121, 119, 119);
+    border: 1px dotted rgb(121, 119, 119);;
+}
+
+small{
+    display: block;
+}
+
+
+
+
+/*
+.large  .row-movies .row-movie img{
+    height: 575px;
+    width: 285px;
+    margin: 6px;
+}
+
+
+
+
+
+/*
+#profile{
+    width: 40px;
+    cursor: none;
+    margin: 20px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 30px;
+}
+
+
+
+
+
+/*
+.floating-text{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.gif{
+    flex
+}*/
+
+
+.questions .form{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+
+.questions small{
+    font-size: 13px;
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .col .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+
+
+/*--------media queries-----*/
+@media screen and (max-width: 600px){
+    .logo{
+        width: 100px;
+    }
+    .button button{
+        padding: 5px 10px;
+        display: flex;
+        display: inline;
+        flex-direction: row;
+    }
+    nav .lang-btn{
+        padding: 4px 8px;
+        display: inline;
+    }
+
+    .main-content{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+}
